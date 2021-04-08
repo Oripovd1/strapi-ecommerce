@@ -9,10 +9,10 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
     "pg": "^8.5.1",
+    "pg-connection-string": "^2.1.0",
     "sqlite3": "latest",
     "strapi": "3.2.5",
     "strapi-admin": "3.2.5",
