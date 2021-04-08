@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "books",
+  "collectionName": "products",
   "info": {
-    "name": "book",
+    "name": "product",
     "description": ""
   },
   "options": {
@@ -18,10 +18,10 @@
       "type": "richtext"
     },
     "price": {
-      "type": "biginteger"
+      "type": "integer"
     },
-    "images": {
-      "collection": "file",
+    "image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -31,22 +31,11 @@
       "plugin": "upload",
       "required": false
     },
-    "categories": {
-      "collection": "category",
-      "via": "books",
-      "dominant": true
+    "category": {
+      "model": "category"
     },
-    "type_book": {
-      "type": "string"
-    },
-    "recommended": {
-      "type": "boolean"
-    },
-    "pages_amount": {
-      "type": "biginteger"
-    },
-    "rating": {
-      "type": "float"
+    "order": {
+      "type": "integer"
     }
   }
 }

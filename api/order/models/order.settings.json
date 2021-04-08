@@ -11,12 +11,9 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "username": {
+    "name": {
       "type": "string",
       "required": true
-    },
-    "email": {
-      "type": "email"
     },
     "phone": {
       "type": "string",
@@ -30,11 +27,21 @@
     "address": {
       "type": "text"
     },
-    "city": {
+    "location": {
       "type": "string"
     },
-    "region": {
-      "type": "string"
+    "delivery_price": {
+      "type": "integer"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "delivery_type": {
+      "type": "enumeration",
+      "enum": [
+        "delivery",
+        "pickup"
+      ]
     }
   }
 }

@@ -517,17 +517,14 @@
       "Order": {
         "required": [
           "id",
-          "username",
+          "name",
           "phone"
         ],
         "properties": {
           "id": {
             "type": "string"
           },
-          "username": {
-            "type": "string"
-          },
-          "email": {
+          "name": {
             "type": "string"
           },
           "phone": {
@@ -541,11 +538,21 @@
           "address": {
             "type": "string"
           },
-          "city": {
+          "location": {
             "type": "string"
           },
-          "region": {
+          "delivery_price": {
+            "type": "integer"
+          },
+          "comment": {
             "type": "string"
+          },
+          "delivery_type": {
+            "type": "string",
+            "enum": [
+              "delivery",
+              "pickup"
+            ]
           },
           "published_at": {
             "type": "string",
@@ -555,14 +562,11 @@
       },
       "NewOrder": {
         "required": [
-          "username",
+          "name",
           "phone"
         ],
         "properties": {
-          "username": {
-            "type": "string"
-          },
-          "email": {
+          "name": {
             "type": "string"
           },
           "phone": {
@@ -576,11 +580,21 @@
           "address": {
             "type": "string"
           },
-          "city": {
+          "location": {
             "type": "string"
           },
-          "region": {
+          "delivery_price": {
+            "type": "integer"
+          },
+          "comment": {
             "type": "string"
+          },
+          "delivery_type": {
+            "type": "string",
+            "enum": [
+              "delivery",
+              "pickup"
+            ]
           },
           "published_at": {
             "type": "string",

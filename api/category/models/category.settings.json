@@ -14,10 +14,6 @@
     "name": {
       "type": "string"
     },
-    "books": {
-      "via": "categories",
-      "collection": "book"
-    },
     "icon": {
       "model": "file",
       "via": "related",
@@ -28,6 +24,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "products": {
+      "collection": "product"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

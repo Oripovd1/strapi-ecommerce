@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/books",
-      "handler": "book.find",
+      "path": "/contacts",
+      "handler": "contact.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/books/count",
-      "handler": "book.count",
+      "path": "/contacts/count",
+      "handler": "contact.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/books/:id",
-      "handler": "book.findOne",
+      "path": "/contacts/:id",
+      "handler": "contact.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/books",
-      "handler": "book.create",
+      "path": "/contacts",
+      "handler": "contact.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/books/:id",
-      "handler": "book.update",
+      "path": "/contacts/:id",
+      "handler": "contact.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/books/:id",
-      "handler": "book.delete",
+      "path": "/contacts/:id",
+      "handler": "contact.delete",
       "config": {
         "policies": []
       }
