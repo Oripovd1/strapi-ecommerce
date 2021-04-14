@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/14/2021 11:07:17 AM"
+    "x-generation-date": "04/14/2021 8:49:52 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6093,9 +6093,6 @@
           "address": {
             "type": "string"
           },
-          "location": {
-            "type": "string"
-          },
           "delivery_price": {
             "type": "integer"
           },
@@ -6108,6 +6105,32 @@
               "delivery",
               "pickup"
             ]
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "product_name": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "integer"
+                },
+                "price": {
+                  "type": "integer"
+                },
+                "product_id": {
+                  "type": "integer"
+                }
+              }
+            }
           },
           "published_at": {
             "type": "string",
@@ -6135,9 +6158,6 @@
           "address": {
             "type": "string"
           },
-          "location": {
-            "type": "string"
-          },
           "delivery_price": {
             "type": "integer"
           },
@@ -6150,6 +6170,32 @@
               "delivery",
               "pickup"
             ]
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "product_name": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "integer"
+                },
+                "price": {
+                  "type": "integer"
+                },
+                "product_id": {
+                  "type": "integer"
+                }
+              }
+            }
           },
           "published_at": {
             "type": "string",

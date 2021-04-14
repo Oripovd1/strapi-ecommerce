@@ -27,9 +27,6 @@
     "address": {
       "type": "text"
     },
-    "location": {
-      "type": "string"
-    },
     "delivery_price": {
       "type": "integer"
     },
@@ -42,6 +39,11 @@
         "delivery",
         "pickup"
       ]
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "order.items"
     }
   }
 }

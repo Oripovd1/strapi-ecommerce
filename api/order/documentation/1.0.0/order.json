@@ -538,9 +538,6 @@
           "address": {
             "type": "string"
           },
-          "location": {
-            "type": "string"
-          },
           "delivery_price": {
             "type": "integer"
           },
@@ -553,6 +550,32 @@
               "delivery",
               "pickup"
             ]
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "product_name": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "integer"
+                },
+                "price": {
+                  "type": "integer"
+                },
+                "product_id": {
+                  "type": "integer"
+                }
+              }
+            }
           },
           "published_at": {
             "type": "string",
@@ -580,9 +603,6 @@
           "address": {
             "type": "string"
           },
-          "location": {
-            "type": "string"
-          },
           "delivery_price": {
             "type": "integer"
           },
@@ -595,6 +615,32 @@
               "delivery",
               "pickup"
             ]
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "product_name": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "integer"
+                },
+                "price": {
+                  "type": "integer"
+                },
+                "product_id": {
+                  "type": "integer"
+                }
+              }
+            }
           },
           "published_at": {
             "type": "string",
