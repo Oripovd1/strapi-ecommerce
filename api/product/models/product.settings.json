@@ -14,9 +14,6 @@
     "name": {
       "type": "string"
     },
-    "description": {
-      "type": "richtext"
-    },
     "price": {
       "type": "integer"
     },
@@ -36,6 +33,9 @@
     },
     "order": {
       "type": "integer"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
