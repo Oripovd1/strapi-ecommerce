@@ -21,9 +21,6 @@
       "minLength": 9,
       "required": true
     },
-    "total_price": {
-      "type": "float"
-    },
     "address": {
       "type": "text"
     },
@@ -44,6 +41,9 @@
       "type": "component",
       "repeatable": true,
       "component": "order.items"
+    },
+    "total_price": {
+      "type": "string"
     }
   }
 }

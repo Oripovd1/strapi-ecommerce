@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/14/2021 8:49:52 PM"
+    "x-generation-date": "04/15/2021 8:23:48 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6087,9 +6087,6 @@
             "maxLength": 13,
             "minLength": 9
           },
-          "total_price": {
-            "type": "number"
-          },
           "address": {
             "type": "string"
           },
@@ -6123,14 +6120,17 @@
                 "quantity": {
                   "type": "integer"
                 },
-                "price": {
-                  "type": "integer"
-                },
                 "product_id": {
                   "type": "integer"
+                },
+                "price": {
+                  "type": "string"
                 }
               }
             }
+          },
+          "total_price": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -6152,9 +6152,6 @@
             "maxLength": 13,
             "minLength": 9
           },
-          "total_price": {
-            "type": "number"
-          },
           "address": {
             "type": "string"
           },
@@ -6188,14 +6185,17 @@
                 "quantity": {
                   "type": "integer"
                 },
-                "price": {
-                  "type": "integer"
-                },
                 "product_id": {
                   "type": "integer"
+                },
+                "price": {
+                  "type": "string"
                 }
               }
             }
+          },
+          "total_price": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",

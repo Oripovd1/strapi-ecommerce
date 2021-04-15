@@ -532,9 +532,6 @@
             "maxLength": 13,
             "minLength": 9
           },
-          "total_price": {
-            "type": "number"
-          },
           "address": {
             "type": "string"
           },
@@ -568,14 +565,17 @@
                 "quantity": {
                   "type": "integer"
                 },
-                "price": {
-                  "type": "integer"
-                },
                 "product_id": {
                   "type": "integer"
+                },
+                "price": {
+                  "type": "string"
                 }
               }
             }
+          },
+          "total_price": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -597,9 +597,6 @@
             "maxLength": 13,
             "minLength": 9
           },
-          "total_price": {
-            "type": "number"
-          },
           "address": {
             "type": "string"
           },
@@ -633,14 +630,17 @@
                 "quantity": {
                   "type": "integer"
                 },
-                "price": {
-                  "type": "integer"
-                },
                 "product_id": {
                   "type": "integer"
+                },
+                "price": {
+                  "type": "string"
                 }
               }
             }
+          },
+          "total_price": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
